@@ -55,9 +55,10 @@ function App() {
         dispatch(getGenres(allGenres));
     };
 
-    return (
+    return ( 
         <BrowserRouter>
             <Header />
+            
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/:mediaType/:id" element={<Details />} />

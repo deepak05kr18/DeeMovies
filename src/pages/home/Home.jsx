@@ -14,7 +14,7 @@ const Home = () => {
             <Trending />
             <Popular />
             <TopRated />
-            <Upcoming />
+           
         </div>
     );
 };
